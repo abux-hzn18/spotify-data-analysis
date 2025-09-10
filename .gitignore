@@ -135,6 +135,8 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+.idea/
+.vscode
 .env
 .envrc
 .venv
@@ -180,6 +182,7 @@ cython_debug/
 # Ignore directories containing user credentials, local state, and settings.
 # Learn more at https://abstra.io/docs
 .abstra/
+credentials.py
 
 # Visual Studio Code
 #  Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore 
